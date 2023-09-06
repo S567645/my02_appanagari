@@ -17,5 +17,19 @@ ___
    [Mystats](Mystats.md)
 
 
+---------------
+# Code Fencing
+
+    ```
+    var url = "www.test.com/one/two/three?p1=v&p2=v#anc";
+    var file = url.split('?')[0];
+    var pathanddomain = file.split('/');
+    var path = pathanddomain.splice(1, pathanddomain.length-1);
+    var pathIndexToGet = 2;
+    document.write(path[pathIndexToGet]);​
+    ```
+
+[Link to stackover flow](https://stackoverflow.com/questions/11703673/get-specific-part-of-url-of-a-link)
+
 
 
