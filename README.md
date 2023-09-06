@@ -43,5 +43,13 @@ In this section, we will explore four types of sports that I recommend trying fo
 
 [Link to stackover flow](https://stackoverflow.com/questions/11703673/get-specific-part-of-url-of-a-link)
 
+```
+ var newPathname = "";
+ for (i = 0; i < pathArray.length; i++) {
+  newPathname += "/";
+  newPathname += pathArray[i];
+}
+```
+[link to css tricks](https://css-tricks.com/snippets/javascript/get-url-and-url-parts-in-javascript/)
 
 
