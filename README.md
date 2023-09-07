@@ -50,6 +50,9 @@ In this section, we will explore four types of sports that I recommend trying fo
  newPathname += "/";
  newPathname += pathArray[i];
 }
+```
+[link to css tricks](https://css-tricks.com/snippets/javascript/get-url-and-url-parts-in-javascript/)
+
 
 
 
