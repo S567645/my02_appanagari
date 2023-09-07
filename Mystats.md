@@ -15,3 +15,27 @@ In this section, we will explore four types of sports that I recommend trying fo
 ## Scientists quotes
 > "Do not fear failure in science it is often the stepping stone to success." - CV Raman <br>
 > "An equation for me has no meaning, unless it expresses a thought of God." - Srinivasa Ramanujan
+
+---------------
+# Code Fencing
+
+    ```
+    var url = "www.test.com/one/two/three?p1=v&p2=v#anc";
+    var file = url.split('?')[0];
+    var pathanddomain = file.split('/');
+    var path = pathanddomain.splice(1, pathanddomain.length-1);
+    var pathIndexToGet = 2;
+    document.write(path[pathIndexToGet]);​
+    ```
+
+[Link to stackover flow](https://stackoverflow.com/questions/11703673/get-specific-part-of-url-of-a-link)
+
+```
+ var newPathname = "";
+ for (i = 0; i < pathArray.length; i++) {
+ newPathname += "/";
+ newPathname += pathArray[i];
+}
+```
+[link to css tricks](https://css-tricks.com/snippets/javascript/get-url-and-url-parts-in-javascript/)
+
